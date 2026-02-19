@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+
+# Android
+*.apk
+*.aab
+*.ap_
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Gradle wrapper jar (binary — committed separately if needed)
+gradle/wrapper/gradle-wrapper.jar
