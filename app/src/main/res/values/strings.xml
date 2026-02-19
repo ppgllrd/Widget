@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Balance Widget</string>
+
+    <!-- Widget strings -->
+    <string name="widget_label">Audio Balance</string>
+    <string name="widget_title">🔊 Audio Balance</string>
+    <string name="widget_description">Adjusts the left/right audio balance of the device</string>
+    <string name="widget_configure_title">Configure Balance Widget</string>
+
+    <!-- Config activity strings -->
+    <string name="config_title">Audio Balance</string>
+    <string name="config_subtitle">Drag the slider to adjust the left/right audio balance</string>
+
+    <!-- Main activity strings -->
+    <string name="main_title">🔊 Audio Balance Widget</string>
+    <string name="main_subtitle">Use the slider or the home-screen widget to adjust the left/right audio balance</string>
+
+    <!-- Channels -->
+    <string name="channel_left">◀ Left</string>
+    <string name="channel_right">Right ▶</string>
+
+    <!-- Buttons -->
+    <string name="btn_left">◀</string>
+    <string name="btn_center">●</string>
+    <string name="btn_right">▶</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_reset_center">Reset to Center</string>
+
+    <!-- Permission info -->
+    <string name="permission_status">MODIFY_AUDIO_SETTINGS: %1$s\nMODIFY_AUDIO_ROUTING: %2$s</string>
+    <string name="granted">✓ Granted</string>
+    <string name="not_granted">✗ Not Granted</string>
+    <string name="permission_note">Note: System-wide balance requires MODIFY_AUDIO_ROUTING, which is a privileged permission. On non-system builds the balance may be applied via reflection or have limited scope.</string>
+</resources>
